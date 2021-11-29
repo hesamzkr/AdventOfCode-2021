@@ -13,11 +13,11 @@ impl Solution {
         println!("Part B: {}", q.part_two());
     }
 
-    pub fn part_one(&self) -> &str {
+    fn part_one(&self) -> &str {
         return "Answer to Part A";
     }
 
-    pub fn part_two(&self) -> &str {
+    fn part_two(&self) -> &str {
         return "Answer to Part B";
     }
 }
