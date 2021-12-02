@@ -8,7 +8,7 @@ impl Solution {
     pub fn run() {
         let q = Solution { number: 2 };
         println!("Question {}", q.number);
-<<<<<<< HEAD
+
         let input_str = fs::read_to_string("./inputs/q2.txt").expect("Something went wrong");
         
         let input: Vec<&str> = input_str.split("\n").collect();
@@ -63,18 +63,3 @@ impl Solution {
         return x_pos * depth;
     }
 }
-=======
-        let input = fs::read_to_string("./inputs/q2.txt").expect("Something went wrong");
-        println!("Part A: {}", q.part_one());
-        println!("Part B: {}", q.part_two());
-    }
-
-    pub fn part_one(&self) -> &str {
-        return "Answer to Part A";
-    }
-
-    pub fn part_two(&self) -> &str {
-        return "Answer to Part B";
-    }
-}
->>>>>>> origin/master
