@@ -7,7 +7,6 @@ pub struct Solution {
 impl Solution {
     pub fn run() {
         let q = Solution { number: 1 };
-        println!("Question {}", q.number);
         let input_str = fs::read_to_string("./inputs/q1.txt").expect("Something went wrong");
         
         let input: Vec<i32> = input_str.split("\n").map(|s| s.parse().expect("Can't parse to i32")).collect();
