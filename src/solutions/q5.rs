@@ -49,7 +49,7 @@ impl Solution {
         }
 
         let mut count = 0;
-        for (k, v) in grid.iter() {
+        for (_, v) in grid.iter() {
             if *v >= 2 {
                 count += 1;
             }
@@ -102,7 +102,7 @@ impl Solution {
         }
 
         let mut count = 0;
-        for (k, v) in grid.iter() {
+        for (_, v) in grid.iter() {
             if *v >= 2 {
                 count += 1;
             }

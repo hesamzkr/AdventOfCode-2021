@@ -37,7 +37,7 @@ impl Solution {
         println!("Part B: {}", q.part_two(&boards, &marked_nums, &rand_nums));
     }
 
-    fn part_one(&self, boards: &Vec<Vec<Vec<i32>>>, mut marked_nums: &Vec<Vec<Vec<i32>>>, rand_nums: &Vec<i32>) -> i32 {
+    fn part_one(&self, boards: &Vec<Vec<Vec<i32>>>, marked_nums: &Vec<Vec<Vec<i32>>>, rand_nums: &Vec<i32>) -> i32 {
         let boards = boards.to_vec();
         let mut marked_nums = marked_nums.to_vec();
         let rand_nums = rand_nums.to_vec();
@@ -87,7 +87,7 @@ impl Solution {
         return 0;
     }
 
-    fn part_two(&self, boards: &Vec<Vec<Vec<i32>>>, mut marked_nums: &Vec<Vec<Vec<i32>>>, rand_nums: &Vec<i32>) -> i32 {
+    fn part_two(&self, boards: &Vec<Vec<Vec<i32>>>, marked_nums: &Vec<Vec<Vec<i32>>>, rand_nums: &Vec<i32>) -> i32 {
         let boards = boards.to_vec();
         let mut marked_nums = marked_nums.to_vec();
         let rand_nums = rand_nums.to_vec();
