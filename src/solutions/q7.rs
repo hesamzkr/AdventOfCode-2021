@@ -1,5 +1,4 @@
 use std::fs;
-use std::collections::HashMap;
 
 pub struct Solution {
     number: u32,
