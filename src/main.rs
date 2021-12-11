@@ -14,6 +14,8 @@ fn main() {
             Ok(6) => solutions::q6::Solution::run(),
             Ok(7) => solutions::q7::Solution::run(),
             Ok(8) => solutions::q8::Solution::run(),
+            Ok(9) => solutions::q9::Solution::run(),
+            Ok(10) => solutions::q10::Solution::run(),
             Err(i) => println!("Error: {}", i),
             _ => println!("Invalid question number"),
         }
